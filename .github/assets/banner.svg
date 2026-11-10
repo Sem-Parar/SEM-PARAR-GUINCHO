@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Sem Parar, guincho e socorro nas rodovias do Brasil" xmlns:c2pa="http://c2pa.org/manifest">
+  <title>Sem Parar, guincho e socorro nas rodovias do Brasil</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9B0A3E"/>
+      <stop offset="52%" stop-color="#D60B52"/>
+      <stop offset="100%" stop-color="#E8447A"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="1280" height="340" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#r)">
+    <rect width="1280" height="340" fill="url(#bg)"/>
+
+    <g fill="url(#fade)">
+      <path d="M900 -40 L1030 170 L900 380 L980 380 L1110 170 L980 -40 Z"/>
+      <path d="M1030 -40 L1160 170 L1030 380 L1110 380 L1240 170 L1110 -40 Z"/>
+      <path d="M1160 -40 L1290 170 L1160 380 L1240 380 L1370 170 L1240 -40 Z"/>
+    </g>
+
+    <g transform="translate(72,58)">
+      <rect x="0" y="0" width="10" height="86" rx="5" fill="#ffffff"/>
+      <text x="30" y="46" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Sem Parar</text>
+      <text x="32" y="78" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="17" fill="#ffffff" fill-opacity="0.85" letter-spacing="3">TUDO PRO SEU CARRO</text>
+    </g>
+
+    <text x="72" y="216" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Guincho e Socorro nas Rodovias</text>
+    <text x="74" y="256" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="21" fill="#ffffff" fill-opacity="0.92">O 0800 de cada concessionária e quem chamar em cada trecho</text>
+
+    <g transform="translate(944,60)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 96 H200" stroke-opacity="0.35" stroke-width="7"/>
+      <path d="M10 78 V40 H70 L92 62 V78 Z" stroke-opacity="0.55" stroke-width="6"/>
+      <path d="M92 78 H186 V64 H110" stroke-opacity="0.55" stroke-width="6"/>
+      <path d="M120 64 L176 14" stroke-opacity="0.45" stroke-width="6"/>
+      <path d="M176 14 V40 M170 40 Q176 50 182 40" stroke-opacity="0.45" stroke-width="5"/>
+      <circle cx="36" cy="84" r="12" stroke-opacity="0.55" stroke-width="6"/>
+      <circle cx="152" cy="84" r="12" stroke-opacity="0.55" stroke-width="6"/>
+    </g>
+
+    <rect x="0" y="332" width="1280" height="8" fill="#525251"/>
+  </g>
+</svg>
