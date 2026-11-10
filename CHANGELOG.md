@@ -6,6 +6,19 @@ Todas as mudanças deste repositório ficam registradas aqui, da mais recente pa
 
 Nada por enquanto.
 
+## [0.2.0] (9 de novembro de 2026)
+
+### Adicionado
+
+- Base `coberturas-planos-sem-parar.csv`, com 36 linhas: os seis serviços de assistência (reboque após pane ou acidente, reboque após pane seca, socorro mecânico, troca de pneus, chaveiro e táxi) nos planos Ultra, Conforto, Flex, Livre e Livre Free Flow e no Sem Parar Guincho avulso.
+- Página **Assistência Guincho 24h do Sem Parar: as coberturas de cada plano, em tabela**, com as regras do regulamento do plano Ultra (versão de 30/09/2026): limite de usos, quilometragem, carência, central de acionamento e exclusões.
+- Seção sobre o que fazer na rodovia concedida: primeiro o 0800 da concessionária até o ponto de apoio, depois a assistência do plano.
+
+### Alterado
+
+- O README e a página de telefones passam a apontar para a página de coberturas.
+- O README deixa de citar a oferta de 2ª tag, que não aparece na página pública de planos.
+
 ## [0.1.0] (9 de novembro de 2026)
 
 Primeira versão pública.
