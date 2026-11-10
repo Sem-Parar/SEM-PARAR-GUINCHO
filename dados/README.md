@@ -48,3 +48,22 @@ Uma linha por número público de emergência ou de órgão que atende rodovia s
 | `verificacao` | Quem publica a página |
 | `verificado_em` | Data da conferência |
 | `observacao` | Data da orientação oficial e outras ressalvas |
+
+## coberturas-planos-sem-parar.csv
+
+Uma linha por plano e serviço de assistência. 36 linhas nesta versão.
+
+| Coluna | O que é |
+|---|---|
+| `plano` | Ultra, Conforto, Flex, Livre, Livre Free Flow ou Sem Parar Guincho |
+| `tipo` | `plano da tag` ou `avulso, para qualquer motorista` |
+| `cobertura` | O serviço: reboque após pane ou acidente, reboque após pane seca, socorro mecânico, troca de pneus, chaveiro automotivo ou táxi em caso de reboque |
+| `incluso` | `sim`, `não` ou `n/d` |
+| `limite` | Quantas vezes e até quantos km, quando a fonte diz |
+| `condicao` | O que o serviço cobre e o que fica por conta do cliente |
+| `url_fonte` | O documento ou a página de onde a linha saiu |
+| `fonte` | O nome e a versão da fonte |
+| `atualizado_em` | Data da leitura |
+| `observacao` | Divergências entre fontes e o que ainda falta ler |
+
+Nenhuma linha traz preço, mensalidade ou desconto.
