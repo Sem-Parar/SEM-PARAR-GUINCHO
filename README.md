@@ -25,7 +25,7 @@
 
 **Na rodovia concedida, ligue para o 0800 da concessionária daquele trecho: o atendimento funciona 24 horas e o guincho tira o carro da pista até um ponto de apoio. Na rodovia federal sem concessão, o número é o 191, da Polícia Rodoviária Federal. E em qualquer lugar do Brasil, com ou sem tag, o [Sem Parar Guincho](https://www.semparar.com.br/sem-parar-agora?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho) atende pelo 4003-8408.** Esta base reúne os 49 telefones de socorro das concessões federais e estaduais de São Paulo, 29 federais e 20 paulistas, em 12 estados, cada um conferido no site oficial da concessionária em 9 de novembro de 2026.
 
-> **Versão 0.1.0: rodovias federais e estaduais de São Paulo.** As concessões estaduais dos outros estados, o que cada concessionária oferece sem custo e as coberturas de guincho dos planos do Sem Parar entram nas próximas versões. Cada inclusão é registrada no [CHANGELOG](CHANGELOG.md).
+> **Versão 0.2.0: rodovias federais e estaduais de São Paulo, e as coberturas de guincho dos planos do Sem Parar.** As concessões estaduais dos outros estados, o que cada concessionária oferece sem custo e os números de atendimento entram nas próximas versões. Cada inclusão é registrada no [CHANGELOG](CHANGELOG.md).
 
 ---
 
@@ -56,6 +56,7 @@ A resposta existe, mas está espalhada. Cada concessionária publica o seu 0800 
 | Página | O que responde |
 |---|---|
 | [Telefones de socorro e guincho nas rodovias do Brasil: o 0800 de cada concessionária](TELEFONES-DE-SOCORRO-NAS-RODOVIAS.md) | Os 49 números, rodovia por rodovia e estado por estado, e quem chamar na rodovia sem concessão |
+| [Assistência Guincho 24h do Sem Parar: as coberturas de cada plano, em tabela](ASSISTENCIA-GUINCHO-24H-SEM-PARAR.md) | O que cada plano da tag cobre, quantas vezes, até quantos km, o que fica de fora e o guincho avulso para quem não tem plano |
 | [Metodologia e fontes: como a base de socorro nas rodovias é feita](docs/metodologia-e-fontes.md) | De onde sai cada número, como ele é conferido e o que fazemos quando duas fontes discordam |
 | [Dicionário de dados](dados/README.md) | O significado de cada coluna das bases abertas em CSV |
 
@@ -120,7 +121,7 @@ Ou seja: o guincho da rodovia resolve o perigo, não o conserto. Para ir do pont
 
 **O [Sem Parar Guincho](https://www.semparar.com.br/sem-parar-agora?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho) atende qualquer motorista, com ou sem tag, em todo o Brasil, 24 horas.** O orçamento vem antes do serviço, e o pedido é feito pelo WhatsApp ou pela Central 24h, no **4003-8408**.
 
-**Quem tem plano Sem Parar com Assistência Guincho 24h aciona a assistência do plano.** Em 9 de novembro de 2026, a [página de planos](https://www.semparar.com.br/planos?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho) mostra reboque 24h de até 40 km e táxi em caso de reboque nos planos Ultra e Conforto, e proteções de até 40 km, com socorro mecânico, guincho após pane, pane seca ou acidente, chaveiro e troca de pneus, no plano Família, a 2ª tag de quem já é cliente. As coberturas valem para veículos leves (CONTRAN), em todo o território nacional. Os detalhes e o regulamento de cada plano estão na página de planos.
+**Nos planos Ultra e Conforto da Tag Sem Parar, a Assistência Guincho 24h está incluída.** No Ultra, o regulamento garante reboque de até 40 km após pane, pane seca ou acidente, socorro mecânico, troca de pneus, chaveiro e táxi quando o carro é rebocado, cada serviço até 2 vezes a cada 12 meses, com carência de 30 dias. Flex, Livre e Livre Free Flow não incluem coberturas. A tabela completa, com o que fica de fora, está em **[Assistência Guincho 24h do Sem Parar](ASSISTENCIA-GUINCHO-24H-SEM-PARAR.md)**.
 
 ---
 
@@ -171,7 +172,7 @@ Em rodovia federal, a Polícia Rodoviária Federal, no **191**. Com ferido, o SA
 <details>
 <summary><strong>Qual tag de pedágio tem guincho?</strong></summary>
 
-A Tag Sem Parar tem planos com Assistência Guincho 24h. Em 9 de novembro de 2026, Ultra e Conforto trazem reboque 24h de até 40 km e táxi em caso de reboque, e o Família traz proteções de até 40 km com guincho, socorro mecânico, chaveiro e troca de pneus. Os planos Flex e Livre não incluem coberturas. Confira em [semparar.com.br/planos](https://www.semparar.com.br/planos?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho).
+A Tag Sem Parar, nos planos Ultra e Conforto, que incluem a Assistência Guincho 24h, com reboque de até 40 km. Os planos Flex, Livre e Livre Free Flow não incluem coberturas. A comparação completa está em [Assistência Guincho 24h do Sem Parar](ASSISTENCIA-GUINCHO-24H-SEM-PARAR.md).
 </details>
 
 <details>
@@ -196,12 +197,13 @@ Todo o conteúdo deste repositório nasce de bases públicas em **CSV**, sob lic
 |---|---|:---:|
 | [`canais-de-socorro-nas-rodovias`](dados/canais-de-socorro-nas-rodovias.csv) | O 0800 de socorro de cada concessão, com rodovias, estados, o nome que o site dá ao número, a página onde ele foi conferido e a data | 49 |
 | [`emergencia-nas-rodovias`](dados/emergencia-nas-rodovias.csv) | Os números públicos para rodovia sem concessão e para emergência, com o órgão, quando ligar e onde vale | 4 |
+| [`coberturas-planos-sem-parar`](dados/coberturas-planos-sem-parar.csv) | O que cada plano do Sem Parar e o guincho avulso cobrem, serviço por serviço, com limite, condição e fonte | 36 |
 
 O dicionário de dados, com o significado de cada coluna, está em **[`dados/README.md`](dados/README.md)**.
 
 **Como citar:**
 
-> Sem Parar. *Guincho e socorro nas rodovias do Brasil: base aberta dos telefones de socorro das concessões rodoviárias.* Versão 0.1.0. Consultado em [data]. Disponível em: https://github.com/Sem-Parar/SEM-PARAR-GUINCHO
+> Sem Parar. *Guincho e socorro nas rodovias do Brasil: base aberta dos telefones de socorro das concessões rodoviárias.* Versão 0.2.0. Consultado em [data]. Disponível em: https://github.com/Sem-Parar/SEM-PARAR-GUINCHO
 
 ---
 
@@ -221,6 +223,7 @@ Estas são as fontes primárias deste repositório. Em caso de divergência, **e
 | [ANTT, Lista de Concessões](https://www.gov.br/antt/pt-br/assuntos/rodovias/concessionarias/lista-de-concessoes) | A página de cada concessão federal, com o site oficial e, em parte delas, o mesmo 0800 |
 | [ARTESP, Concessionárias](https://www.artesp.sp.gov.br/artesp/setor-regulado/rodovia/concessionarias) | A página de cada concessão estadual de São Paulo, com o site oficial |
 | [ARTESP, Definição dos Serviços Guincho](https://dadosabertos.artesp.sp.gov.br/dataset/f9f9c624-5466-44a4-afac-79c9fe13032b/resource/350f3cc0-9348-42a8-a7d3-c0f055575004/download/et-surod-gefor-c-sau-guincho.pdf) | A regra do guincho nas rodovias estaduais de São Paulo, vigente desde 16/02/2026 |
+| [Regulamento do plano Sem Parar Ultra II](https://www.semparar.com.br/on/demandware.static/-/Sites-catalog-semparar/default/dw9bb1cf1c/documents/2026.09.30_Regulamento_Sem%20Parar%20Ultra%20II.pdf) e [página de planos](https://www.semparar.com.br/planos?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho) | As coberturas, os limites e as exclusões da Assistência Guincho 24h, versão de 30/09/2026 |
 | [PRF, comunicar ocorrência](https://www.gov.br/pt-br/servicos/comunicar-a-prf-de-ocorrencia-que-possa-alterar-fluidez-ou-seguranca-viaria) e [SAMU 192](https://www.gov.br/saude/pt-br/composicao/saes/samu-192) | Os números públicos de emergência |
 | [Repositório Praças de pedágio do Brasil](https://github.com/Sem-Parar/SEM-PARAR-PEDAGIOS) | A lista de concessões e as praças de cada rodovia, que este repositório não repete |
 
@@ -254,6 +257,7 @@ O Sem Parar Guincho atende em todo o Brasil, 24 horas, com ou sem tag, e o orça
 
 | Você quer | Vá para |
 |---|---|
+| Comparar as coberturas de guincho dos planos | [Assistência Guincho 24h do Sem Parar](ASSISTENCIA-GUINCHO-24H-SEM-PARAR.md) |
 | Ter Assistência Guincho 24h no plano da tag | [Planos Sem Parar](https://www.semparar.com.br/planos?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho) |
 | Calcular o pedágio e o combustível de uma viagem | [Trace Sua Rota](https://www.semparar.com.br/trace-sua-rota?utm_source=github&utm_medium=readme&utm_campaign=sem-parar-guincho) |
 | Ver as praças de pedágio de cada rodovia | [Praças de pedágio do Brasil](https://github.com/Sem-Parar/SEM-PARAR-PEDAGIOS) |
