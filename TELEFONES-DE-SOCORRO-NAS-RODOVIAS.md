@@ -2,7 +2,7 @@
 
 **Carro parou numa rodovia concedida? Ligue para o 0800 da concessionária daquele trecho.** Esta lista reúne 49 números, um por concessão, das rodovias federais e das estaduais de São Paulo, cada um conferido no site oficial da concessionária em 9 de novembro de 2026. Em qualquer lugar do Brasil, com ou sem tag, o [Sem Parar Guincho](https://www.semparar.com.br/sem-parar-agora?utm_source=github&utm_medium=telefones&utm_campaign=sem-parar-guincho) também atende, 24 horas, pelo **4003-8408**.
 
-> Esta página é gerada a partir de [`dados/canais-de-socorro-nas-rodovias.csv`](dados/canais-de-socorro-nas-rodovias.csv). Versão 0.1.0: concessões federais e estaduais de São Paulo. As concessões estaduais dos outros estados entram nas próximas versões.
+> Esta página é gerada a partir de [`dados/canais-de-socorro-nas-rodovias.csv`](dados/canais-de-socorro-nas-rodovias.csv). Versão 0.2.0: concessões federais e estaduais de São Paulo. As concessões estaduais dos outros estados entram nas próximas versões.
 
 ## Índice
 
@@ -280,7 +280,7 @@ Fora dos trechos concedidos não há 0800 de concessionária. Nesses casos, e em
 
 O guincho da concessionária tira o carro da pista e leva até um ponto de apoio. **Nas rodovias estaduais de São Paulo, a regra da ARTESP manda informar ao usuário que o serviço é gratuito** e diz que o veículo vai para o ponto de apoio mais próximo, definido pela concessionária, fora da pista. Chegando lá, o serviço de guincho termina ([especificação técnica da ARTESP, vigente desde 16/02/2026](https://dadosabertos.artesp.sp.gov.br/dataset/f9f9c624-5466-44a4-afac-79c9fe13032b/resource/350f3cc0-9348-42a8-a7d3-c0f055575004/download/et-surod-gefor-c-sau-guincho.pdf)). As regras de cada contrato federal entram na próxima versão deste repositório.
 
-Para levar o carro do ponto de apoio até a oficina ou até em casa, é outro serviço. O **[Sem Parar Guincho](https://www.semparar.com.br/sem-parar-agora?utm_source=github&utm_medium=telefones&utm_campaign=sem-parar-guincho)** atende qualquer motorista, com ou sem tag, com orçamento antes do serviço, pelo WhatsApp ou pela Central 24h, no **4003-8408**. E quem tem plano Sem Parar com Assistência Guincho 24h aciona a assistência do plano: as coberturas de cada plano estão em [semparar.com.br/planos](https://www.semparar.com.br/planos?utm_source=github&utm_medium=telefones&utm_campaign=sem-parar-guincho).
+Para levar o carro do ponto de apoio até a oficina ou até em casa, é outro serviço. O **[Sem Parar Guincho](https://www.semparar.com.br/sem-parar-agora?utm_source=github&utm_medium=telefones&utm_campaign=sem-parar-guincho)** atende qualquer motorista, com ou sem tag, com orçamento antes do serviço, pelo WhatsApp ou pela Central 24h, no **4003-8408**. E quem tem plano Ultra ou Conforto aciona a Assistência Guincho 24h do plano: as coberturas de cada plano estão em [Assistência Guincho 24h do Sem Parar](ASSISTENCIA-GUINCHO-24H-SEM-PARAR.md).
 
 ## Como esta lista é feita
 
