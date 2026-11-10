@@ -12,6 +12,10 @@ Ficam para as próximas versões:
 - as concessões que cobram só por pórtico de Free Flow, sem praça com cabine;
 - o que cada concessionária oferece sem custo e até onde leva o carro, lido na carta de serviços ao usuário de cada uma.
 
+## Coberturas dos planos do Sem Parar
+
+A base [`coberturas-planos-sem-parar.csv`](../dados/coberturas-planos-sem-parar.csv) tem uma linha por plano e serviço. O detalhe do plano Ultra sai do regulamento oficial (versão de 30/09/2026, vigente desde 01/10/2026). O do Conforto, enquanto o regulamento dele não é lido, sai do card do plano na página de planos, e o que o card não diz fica `n/d`. Flex, Livre e Livre Free Flow seguem a tabela Compare os planos, que diz que eles não incluem coberturas. Produto anunciado como lançamento em breve não entra até estar à venda. Quando a página e o regulamento divergem, vale o regulamento, e a divergência fica na observação.
+
 ## De onde sai cada número
 
 1. **O site oficial da concessionária.** Partimos da página de cada concessão na ANTT ou na ARTESP, que traz o endereço do site oficial, e lemos o número no próprio site, em 9 de novembro de 2026. A base guarda a página exata em `url_verificacao`.
